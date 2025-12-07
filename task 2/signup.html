@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: white;
+        }
+
+        .outer-box {
+            width: 350px;
+            margin: 55px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 0 15px black;
+        }
+
+        h2 
+        {
+            text-align: center;
+            color: purple;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid grey;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: palevioletred;
+            color: black;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover 
+        {
+            background: pink;
+        }
+        p{ 
+            text-align: center;
+
+        }
+         a {
+            display: block;
+            text-align: center;
+            width: 100%;
+            color: blue;
+         }
+         #Usr
+         {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            text-align: center;
+         }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="outer-box">
+        <h2>Signup</h2>
+
+        <label for="name"><b>Full name</b></label><input type="text" placeholder="Enter Full Name" id="name" required>
+        <label for="email"><b>Email</b></label><input type="email" placeholder="Email Address" id="email" required>
+        <label for="no"><b>Mobile Number</b></label><input type="text" placeholder="mobile Number" id="no" required>
+        <label for="pas"><b>Password</b></label><input type="text" placeholder="password" id="pas" required>
+        <label for="pass"><b>Confirm Password</b></label><input type="password" placeholder="Confirm Password" id="pass" required>
+        <label for="Usr"><b></b></label>
+            <select id="Usr" required>
+                <option value="">Select User Type</option>
+                <option value="student">Student</option>
+                <option value="admin">Admin</option>
+            </select>
+
+        <button><b>Create Account</b></button>
+        <p><b>Already have an account?</b></p>
+        <a href="login.html"><b>Login</b></a>
+    </div>
+
+</body>
+</html>
