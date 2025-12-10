@@ -158,3 +158,93 @@ Message and link for users to navigate to the signup page
 # 5. Summary
 The Login Page provides a clean, simple, and visually appealing interface for user authentication. It emphasizes clarity, ease of use, and a modern design suitable for basic website login functionality.
 
+
+
+# Task 3-Cards And Table.
+
+# Project Overview 
+This project is a simple and clean dashboard webpage created using HTML and CSS. It contains two main parts: 
+1. A dashboard card section that displays features visually. 
+2. A user records table that shows structured user information. 
+
+The design focuses on simplicity, clarity, and user-friendly layout. 
+
+# Features 
+• Interactive dashboard cards 
+• Hover effects on cards and buttons 
+• Structured user table 
+• Clean and modern interface 
+• Fully responsive layout using Flexbox 
+• Uniform images and organized spacing 
+
+# Introduction 
+This project presents a basic dashboard layout that can be used in admin panels, management systems, or web applications. It aims to create a neat and structured interface that displays information clearly. 
+
+# Objectives 
+• Create a user-friendly dashboard interface 
+• Display features in card format 
+• Present user data neatly using a table 
+• Implement CSS styling for spacing, colors, and animations 
+
+# Webpage Structure 
+
+# 1. Dashboard Heading 
+• The page begins with a centered title “Dashboard Overview.” 
+• It is underlined to emphasize the main section. 
+
+# 2. Feature Cards Section 
+A row of three feature cards is displayed below the main heading. Each card includes: 
+• An image 
+• A title 
+• A short description 
+• A button 
+
+# The cards represent key functions like Users, Reports, and Analytics. Hover effects include: 
+• Color change 
+• Upward movement 
+• Shadow effect for 3D appearance 
+
+Button colors also change when hovered. 
+
+# 3. User Records Heading 
+A second centered and underlined heading “User Records” introduces the table section. 
+
+# 4. User Records Table 
+
+A structured table displays user information with columns: 
+• ID 
+• Name 
+• Email 
+• Role 
+• Status 
+
+# The table includes: 
+• A highlighted header row 
+• Clear spacing 
+• Borders between rows 
+• Shadow effect for visibility 
+
+Each row represents a single user. 
+
+#  CSS Styling 
+The design uses various styling techniques: 
+• Clean font and white background 
+• Flexbox for arranging cards 
+• Borders and rounded corners for cards 
+• Hover animations on cards and buttons 
+• Fixed image size for uniform layout 
+• Table shadows and spacing for clarity. 
+
+# Conclusion 
+This dashboard project effectively uses HTML and CSS to create a well-structured, visually appealing webpage. It demonstrates: 
+• Clean layout design 
+• Interactive effects 
+• Organized data display 
+
+# The project can be improved further by adding: 
+• Navigation bar 
+• Login system 
+• Dark mode 
+• Database connectivity 
+
+
