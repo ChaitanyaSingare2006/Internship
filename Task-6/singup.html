@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="form" onsubmit="return validateForm()">
+    <div class="outer-box">
+        <h2>Singup Page</h2>
+
+        <label><b>First name:</b></label>
+        <input type="text" placeholder="Enter Full Name" id="name">
+
+        <label><b>Last name:</b></label>
+        <input type="text" placeholder="Enter Full Name" id="name1">
+
+        <label><b>Email:</b></label>
+        <input type="email" placeholder="Email Address" id="email">
+
+        <label><b>Mobile Number:</b></label>
+        <input type="text" placeholder="Mobile Number" id="no">
+
+        <label><b>Password:</b></label>
+        <input type="password" placeholder="Password" id="pas" maxlength="8">
+
+        <label><b>Confirm Password:</b></label>
+        <input type="password" placeholder="Confirm Password" id="pass" maxlength="8">
+
+        <select id="Usr">
+            <option value="">Select User Type</option>
+            <option value="student">Student</option>
+            <option value="admin">Admin</option>
+        </select>
+        <button type="submit"><b>Create Account</b></button>
+    </div>
+</form>
+<script src="singup.js"></script>
+</body>
+</html>
